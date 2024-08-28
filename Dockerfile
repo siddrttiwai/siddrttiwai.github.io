@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-WORKDIR /Boxing_Center
+WORKDIR /usr/share/nginx/html
 COPY . .
 EXPOSE 80
 
